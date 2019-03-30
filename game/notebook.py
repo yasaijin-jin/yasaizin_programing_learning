@@ -7,7 +7,7 @@ from numba.decorators import jit
 number = 5
 area_range_max = 25
 area_range_min = 1
-
+a = 1
 
 def get_key(ky):
     return bool(ctypes.windll.user32.GetAsyncKeyState(ky) & 0x8000)
